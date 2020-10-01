@@ -1,0 +1,31 @@
+{
+  "name": "cache-hacks",
+  "version": "1.0.0",
+  "description": "Simplistic demo of node-cache-lib",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghassen-chetioui/node-cache-hacks.git"
+  },
+  "keywords": [
+    "node-cache"
+  ],
+  "author": "Ghassen Chetioui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghassen-chetioui/node-cache-hacks/issues"
+  },
+  "homepage": "https://github.com/ghassen-chetioui/node-cache-hacks#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "node-cache": "5.1.2"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.8",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.2"
+  }
+}
